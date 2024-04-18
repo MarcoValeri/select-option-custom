@@ -1,0 +1,38 @@
+.select-option-custom {
+    border: 1px solid #000;
+}
+
+.select-option-custom__wrapper {
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #000;
+}
+
+.select-option-custom__placeholder {
+    color: #808080;
+}
+
+.select-option-custom__container-values {
+    position: relative;
+    margin-top: 20px;
+    z-index: 12;
+    background-color: #fff;
+    border: 1px solid #00d;
+}
+
+.select-option-custom__value {
+    padding: 5px;
+    cursor: pointer;
+    border: 1px solid #00d;
+}
+
+.select-option-custom__value:hover {
+    background-color: #dd0;
+}
+
+.select-option-custom__container-submit {
+    position: relative;
+    z-index: 2;
+}
